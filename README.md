@@ -77,9 +77,9 @@ Notes:
 
 ## Troubleshooting
 
-- "FileNotFoundError: phishing.pkl"  Ensure `phishing.pkl` is in the same folder where you run `streamlit run app.py`.
-- Screenshot API errors  If you see a screenshot API error in the UI, verify your `API_KEY`, and the screenshot service availability.
-- Streamlit not found  Ensure you installed the dependencies in the environment where you run the app.
+- "FileNotFoundError: phishing.pkl": Ensure `phishing.pkl` is in the same folder where you run `streamlit run app.py`.
+- Screenshot API errors: If you see a screenshot API error in the UI, verify your `API_KEY`, and the screenshot service availability.
+- Streamlit not found: Ensure you installed the dependencies in the environment where you run the app.
 
 ---
 
