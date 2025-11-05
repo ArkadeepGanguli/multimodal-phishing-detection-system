@@ -26,10 +26,10 @@ How the final score is computed in `app.py` (implementation detail):
 
 ## Project structure (important files)
 
-- `app.py`  Streamlit application entrypoint (runs the UI).
-- `phishing.pkl`  Pickled scikit-learn pipeline (preprocessing + URL model).
-- `phishing_screenshot_mobilenetv2_focal.keras`  Keras image model used to score website screenshots.
-- `requirements.txt`  Python dependencies for running the app.
+- `app.py`: Streamlit application entrypoint (runs the UI).
+- `phishing.pkl`: Pickled scikit-learn pipeline (preprocessing + URL model).
+- `phishing_screenshot_mobilenetv2_focal.keras`: Keras image model used to score website screenshots.
+- `requirements.txt`: Python dependencies for running the app.
 
 ---
 
@@ -95,5 +95,3 @@ The app sends the URL you enter to a screenshot service (remote) in order to cap
 - To update the image model, retrain and replace `phishing_screenshot_mobilenetv2_focal.keras`.
 
 ---
-
-If you'd like, I can also modify `app.py` to read the screenshot API key from an environment variable (safer than hardcoding) and add that to the README; tell me if you want that.
