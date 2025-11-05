@@ -1,0 +1,10 @@
+python-dotenv
+requests
+pillow
+numpy
+tensorflow
+streamlit
+scikit-learn
+pandas
+nltk
+
