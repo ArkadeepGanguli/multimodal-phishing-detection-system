@@ -49,7 +49,7 @@ How the final score is computed in `app.py` (implementation detail):
    ```
 
 3. Add your Screenshot API key (optional but recommended for image scoring):
-   - Open `app.py` and replace the placeholder `API_KEY` with your real key for the screenshot service (or set an environment variable and modify the app to read it).
+   - Open `.env.example` and replace the placeholder `YOUR_API_KEY` with your real key for the screenshot service (visit https://app.screenshotapi.net/) and rename the file to `.env`.
 
 4. Run the Streamlit app:
 
